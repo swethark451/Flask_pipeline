@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/swethark451/Flask_pipeline'
+                    git branch: 'main', credentialsId: 'git-credentials', url: 'https://github.com/swethark451/Flask_pipeline'
                 }
             }
         }
