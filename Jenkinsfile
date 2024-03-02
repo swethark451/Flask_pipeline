@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/vinayprakash893/docker-ec2-jenkins.git'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/swethark451/Flask_pipeline'
                 }
             }
         }
